@@ -17,12 +17,12 @@ pymaceuticals_starter.ipynb - The main script that processes the data and genera
 How the Script Works
 The script reads data from the Mouse_metadata.csv and Study_results.csv files in the Data directory. It performs the following steps:
 
-1. Data Processing and Calculations: Merges the datafiles and study results into a single DataFrame. Generates summary statistics for each drug regimen, including:
+Data Processing and Calculations: Merges the datafiles and study results into a single DataFrame. Generates summary statistics for each drug regimen, including:
 Mean, median, variance, standard deviation, and standard error of the mean (SEM) for tumor volumes.
 Analyzes the interquartile range (IQR) of tumor volumes for the most promising treatments: Capomulin, Ramicane, Infubinol, and Ceftamin, to detect any potential outliers.
 Calculates the correlation coefficient between mouse weight and the average tumor volume specifically for the Capomulin regimen.
 
-3. Data Visualization:
+Data Visualization:
 The script generates the following visualizations using Matplotlib and Pandas:
 
 Bar Chart:Displays the total number of timepoints (Mouse ID/Timepoint pairs) for each drug regimen throughout the study.
