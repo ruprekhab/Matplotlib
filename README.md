@@ -25,14 +25,19 @@ The script reads data from the Mouse_metadata.csv and Study_results.csv files in
 ## Data Visualization: The script generates the following visualizations using Matplotlib and Pandas:
 
 1) Bar Chart:Displays the total number of timepoints (Mouse ID/Timepoint pairs) for each drug regimen throughout the study.
+![Alt text](images/bar1.png)
 
 2) Pie Chart:Shows the distribution of male versus female mice involved in the study.
+![Alt text](images/pie1)
 
 3) Box Plot:Illustrates the distribution of final tumor volumes for all mice across different treatment groups, with potential outliers.
+![Alt text](images/boxplot1)
 
 4) Line Plot:Tracks the tumor volume over time for a specific mouse treated with Capomulin, showing how the tumor responded to the drug.
+![Alt text](images/line1)
 
 5) Linear Regression Model:A scatter plot with a linear regression line that demonstrates the relationship between mouse weight and average tumor volume for the Capomulin regimen.
+![Alt text](images/correlation1.png)
 
 ## How to Run the Script
 Prerequisites:
